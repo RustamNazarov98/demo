@@ -1,8 +1,6 @@
 .flexbox{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
     background-color: darkolivegreen;
     height: 500px;
 }
@@ -11,11 +9,3 @@
     padding: 10px;
     background-color: deeppink;   
 }
-.flexbox > div:nth-child(3) {
-    align-self: stretch;
-}
-
-.flexbox > div:nth-child(4) {
-    align-self: flex-start;
-}
-
